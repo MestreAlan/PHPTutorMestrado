@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>	
+        <meta charset="UTF-8">
+        <title>Tutor Gamedu</title>
+		<script>
+		
+			/* INICIO DO CODIGO QUE PEGA OS DADOS DA URL */
+            var query = location.search.slice(1);
+            var partes = query.split('&');
+            var data = {};
+            partes.forEach(function (parte) {
+                var chaveValor = parte.split('=');
+                var chave = chaveValor[0];
+                var valor = chaveValor[1];
+                data[chave] = valor;
+            });
+            /* FIM DO CODIGO QUE PEGA OS DADOS DA URL */
+		
+			var lista = [];
+			var id_usuario = data["id_usuario"];
+			var nome_usuario = data["nome_usuario"];
+			var id_tarefa = data["id_tarefa"];
+			var id_tutor_selecionado = 1;
+		</script>
+        <script src="TutorChat/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="TutorChat/bootstrap/css/bootstrap.min.css">
+		<script src="TutorChat/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+		
+    </head>	
+	<body>
+		<div id='chatborder'>
+			<ul></ul>
+		</div>	
+		
+		<script>
+			function pegarInfo(){
+				document.body.style.backgroundImage = "url('abertura.png')";
+				document.body.style.backgroundSize = ""+($(window).width())+"px "+($(window).height())+"px"; //seta o style do elemento
+				var textoHTML = 
+					'<div class="container">'+
+						'<div class="col-md-12">'+
+							'<form>'+
+								'<div class="col-md-6">'+
+									'<input type="text" id="userName" class="form-control input-sm chat-input" placeholder="Enter your name" />'+
+									'<input type="button" value="Entrar" onclick="atualizarDadosRedirecionados();"/>'+
+								'</div>'+
+								'<div class="col-md-6">'+
+									'Select the day:'+
+									'<select id="diaId">'+
+										'<option value="1">Arkanoid</option>'+
+										'<option value="2">Jogo da Nave</option>'+
+									'</select>'+
+								'</div>'+
+							'</form>'+
+						'</div>'+
+					'</div>';
+				$("#chatborder ul").html(textoHTML);
+			}
+			function selecionarTutor(){
+				document.body.style.backgroundImage = "url('expositor.png')";
+				document.body.style.backgroundSize = ""+($(window).width())+"px "+($(window).height())+"px"; //seta o style do elemento
+				var textoHTML = 
+					'<div class="container">'+
+						'<div class="col-md-12">'+
+							'<form>'+
+								'<div class="col-md-6">'+
+								'Select the tutor: '+
+								'<select id="tutorId" onchange="choice1(this)">'+
+									'<option value="1">Tutor expositor</option>'+
+									'<option value="2">Sem tutor</option>'+
+								'</select>'+
+								'</div>'+
+								'<div class="col-md-6">'+
+									'<input type="button" value="Entrar" onclick="atualizarTutorSelecionado();"/>'+
+								'</div>'+
+							'</form>'+
+						'</div>'+
+					'</div>';
+				$("#chatborder ul").html(textoHTML);
+			}
+			
+			function choice1(select) {
+				if(select.options[select.selectedIndex].text=="Tutor expositor"){
+					document.body.style.backgroundImage = "url('expositor.png')";
+				}else{
+					document.body.style.backgroundImage = "url('semTutor.png')";
+				}
+				document.body.style.backgroundSize = ""+($(window).width())+"px "+($(window).height())+"px"; //seta o style do elemento
+			}
+
+			
+			function atualizarDadosRedirecionados(){
+				id_tarefa = document.getElementById("diaId").value;
+				id_usuario = 0;
+				nome_usuario = document.getElementById("userName").value;
+				selecionarTutor();
+			}
+			function atualizarTutorSelecionado(){
+				id_tutor_selecionado = document.getElementById("tutorId").value;
+				Redirecionamento();
+			}
+			function Redirecionamento() {
+				if(id_tarefa == 1){ 
+					var base = "arkanoid";
+					switch (id_tutor_selecionado) {
+						case "1":
+							location.href="TutorExpositor?user_name="+nome_usuario+"&user_id="+id_usuario+"&base="+base+"&aula=Arkanoid&process_id="+id_tarefa+"&aula=Arkanoid";
+							break;
+						case "2":
+							location.href="TutorVG/index_arkanoid_vg.php?user_name="+nome_usuario+"&user_id="+id_usuario+"&base="+base+"&aula=Arkanoid&process_id="+id_tarefa+"&aula=Arkanoid";
+							break;
+						default:
+							alert("Erro, tente novamente ou chame o tutor em sala");
+					}
+				}else if(id_tarefa == 2){
+					var base = "nave";
+					switch (id_tutor_selecionado) {
+						case "1":
+							location.href="TutorExpositor?user_name="+nome_usuario+"&user_id="+id_usuario+"&base="+base+"&aula=Arkanoid&process_id="+id_tarefa+"&aula=Nave";
+							break;
+						case "2":
+							location.href="TutorVG/index_nave_vg.php?user_name="+nome_usuario+"&user_id="+id_usuario+"&base="+base+"&aula=Arkanoid&process_id="+id_tarefa+"&aula=Nave";
+							break;
+						default:
+							alert("Erro, tente novamente ou chame o tutor em sala");
+					}
+				}
+			}
+		</script>
+		
+		<script>
+			function iniciar(){
+				if(id_usuario == undefined || nome_usuario == undefined || id_tarefa == undefined){
+					pegarInfo();
+				}else{
+					selecionarTutor();
+				}
+			}
+			iniciar();
+		</script>
+	</body>
+</html>

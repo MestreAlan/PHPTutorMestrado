@@ -1,0 +1,86 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.400
+O Bullet (bala) é um comportamento que faz o objeto sempre se mover em uma direção
+
+2
+00:00:05.000 --> 00:00:09.000
+nesse exemplo ele está sendo rebatido sempre que bate nos blocos verde
+
+3
+00:00:12.500 --> 00:00:16.000
+Para adicionar o comportamento Bullet (bala) é necessário escolher o objeto
+
+4
+00:00:16.700 --> 00:00:22.400
+Que neste exemplo é a bola. Em seguida vá nas propriedades e clique em Behaviors (comportamentos)
+
+5
+00:00:23.500 --> 00:00:26.600
+Clique no sinal de + para adicionar um novo comportamento
+
+6
+00:00:30.500 --> 00:00:31.700
+Procure por Bullet (bala)
+
+7
+00:00:37.000 --> 00:00:39.100
+ selecione e clique em Add
+
+8
+00:00:42.700 --> 00:00:44.500
+Feche a janela de comportamentos
+
+9
+00:00:51.000 --> 00:00:55.500
+Agora teste o comportamento clicando em Run Layout ou apertando F5
+
+10
+00:00:58.000 --> 00:01:01.500
+Veja que a bola passou pelo bloco verde e saiu da tela
+
+11
+00:01:02.000 --> 00:01:05.300
+Para isso não acontecer é necessário mudar suas propriedades
+
+12
+00:01:06.000 --> 00:01:08.500
+Veja que o objeto estava com o comportamento Solid (sólido)
+
+13
+00:01:09.500 --> 00:01:11.600
+e mesmo assim a bola passou por ele
+
+14
+00:01:12.000 --> 00:01:15.300
+Clique na bola e vamos alterar suas propriedades
+
+15
+00:01:15.700 --> 00:01:19.500
+Em suas propriedades temos a opção Bounce off Solids (rebater em sólidos)
+
+16
+00:01:19.800 --> 00:01:25.000
+Ela é responsável por fazer o objeto voltar caso ele bata em algum objeto sólido
+
+17
+00:01:31.200 --> 00:01:35.600
+em Speed (velocidade) você pode alterar a velocidade do objeto
+
+18
+00:01:36.000 --> 00:01:38.500
+como exemplo mude o valor para 600
+
+19
+00:01:41.000 --> 00:01:45.300
+Agora execute o seu jogo clicando em Run Layout ou apertando F5
+
+20
+00:01:46.000 --> 00:01:50.200
+Veja que agora a bola está sendo rebatida pelos dois objetos sólidos
+
+21
+00:01:50.700 --> 00:01:54.400
+E sempre se movendo na mesma direção até ela ser rebatida
+

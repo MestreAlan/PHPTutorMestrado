@@ -1,0 +1,33 @@
+Aceitou_missao - 
+Ver_Video_Demo - 
+Ir_Direto_aula - 
+Fim_video_demo - 
+aulas("nome da página da aula") - 
+Nao_consegui - 
+Fazer_depois - 
+Conseguiu - 
+Nao_ver_video - 
+Sim_ver_video - 
+Concluiu_missao("numero da missão") - 
+Selec_pag("nome da página da seleção") - 
+Entrou_pagina - 
+Saiu_pagina - 
+Pulou_video - 
+Fez_download - 
+LOGIN-Nave - 
+LOGIN-Arkanoid - 
+Concluir_teste - 
+
+Padr�o de a��es
+AvancarP("nome da página") - 
+CarregarV("nome da página do video") - 
+AssistirAteFim - 
+PlayV - 
+PausarV - 
+AbrirVideo - 
+ConcluirAula - 
+Logar - Fez login na tela inicial
+AlterouSonVideo -
+InicioMoverVideo -
+FimMoverVideo -
+ErroDetectadoVideo -

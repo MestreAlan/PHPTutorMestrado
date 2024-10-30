@@ -1,0 +1,157 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.000
+O comportamento de 8 direções, serve para fazer o objeto se mover em até 8 direções
+
+2
+00:00:09.801 --> 00:00:12.801
+Para adicionar um comportamento é bem simples
+
+3
+00:00:13.002 --> 00:00:17.702
+Clique no objeto que você deseja colocar o comportamento de 8 direções
+
+4
+00:00:17.803 --> 00:00:22.203
+Veja que nas propriedades do objeto, existe uma opção com o nome Behaviors
+
+5
+00:00:22.204 --> 00:00:26.004
+Clique em Behaviors e veja que uma nova janela abrirá
+
+6
+00:00:26.205 --> 00:00:30.205
+Nesta janela, para adicionar um comportamento basta clicar no sinal de "+"
+
+7
+00:00:32.206 --> 00:00:35.006
+E para remover, basta clicar na lixeira
+
+8
+00:00:36.807 --> 00:00:39.807
+Então vamos adicionar o comportamento de 8 direções
+
+9
+00:00:40.408 --> 00:00:41.508
+Clique no sinal de "+"
+
+10
+00:00:44.009 --> 00:00:48.609
+Aparecerá vários comportamentos, porém, procure por 8 direções
+
+11
+00:00:51.510 --> 00:00:56.310
+Clique nele e em seguida em Add para adicionar o comportamento
+
+12
+00:01:02.011 --> 00:01:05.611
+Agora feche a janela de comportamentos clicando no "X"
+
+13
+00:01:09.312 --> 00:01:12.212
+Vamos verificar se o nosso comportamento esta funcionando
+
+14
+00:01:14.013 --> 00:01:18.013
+Clique em Run layout, ou pressione "F5" para executar o jogo.
+
+15
+00:01:20.514 --> 00:01:26.014
+Use as setas do seu teclado e veja que o nosso objeto começará a se mover pelo cenário
+
+16
+00:01:28.515 --> 00:01:32.415
+Voltando ao nosso projeto, vamos ver algumas propriedades de 8 direções
+
+17
+00:01:33.216 --> 00:01:36.016
+Clique no objeto para aparecer as suas propriedades
+
+18
+00:01:38.017 --> 00:01:42.017
+Na seção Behaviors, estará as propriedades do 8 direções
+
+19
+00:01:44.018 --> 00:01:46.018
+A primeira propriedade é o Max speed
+
+20
+00:01:47.219 --> 00:01:50.519
+Nela você escolhe a velocidade máxima do seu jogo
+
+21
+00:01:50.920 --> 00:01:55.020
+Quanto maior a volocidade que você colocar, mais rápido o objeto se moverá
+
+22
+00:01:55.121 --> 00:01:57.721
+Neste exemplo vamos colocar 800
+
+23
+00:02:02.122 --> 00:02:06.522
+Abaixo temos Acceleration, é a velocidade que o seu objeto aumenta por segundo
+
+24
+00:02:07.723 --> 00:02:12.523
+Neste exemplo vamos aumentar a velocidade do objeto a 500 por segundo
+
+25
+00:02:14.024 --> 00:02:18.324
+A próxima propriedade é Deceleration, ela faz a ação contraria do Aceleration
+
+26
+00:02:18.325 --> 00:02:23.025
+Ele diminui a velocidade do objeto a cada segundo, seria como o freio do carro
+
+27
+00:02:23.726 --> 00:02:29.026
+A propriedade Directions serve para você escolher a quantidade de direções
+
+28
+00:02:29.827 --> 00:02:33.927
+Que seu objeto se move, se é 8, 4 ou 2 direções
+
+29
+00:02:34.828 --> 00:02:40.828
+Neste exemplo vamos colocar Left & Right, para o objeto se mover nestas duas direções
+
+30
+00:02:42.029 --> 00:02:48.029
+Na opção Set angle, você escolher se o objeto muda de ângulo quando se move
+
+31
+00:02:48.730 --> 00:02:54.030
+Você pode escolher entre mudar em 360º, 45º ou 90º
+
+32
+00:02:54.731 --> 00:02:57.231
+Ou não mudar, clicando em No
+
+33
+00:02:58.632 --> 00:02:59.732
+Default controls
+
+34
+00:02:59.833 --> 00:03:05.233
+Serve para dizer se quer que seu objeto se mova com as setas do teclado ou não
+
+35
+00:03:06.634 --> 00:03:11.334
+Initial state, você escolhe se o comportamento começa ativado ou não
+
+36
+00:03:11.735 --> 00:03:14.535
+Agora vamos testar o comportamento com estas propriedades
+
+37
+00:03:14.536 --> 00:03:16.936
+e verifique se seu objeto esta se movendo
+
+38
+00:03:17.537 --> 00:03:20.037
+Se você utilizou as mesmas configurações do vídeo
+
+39
+00:03:20.038 --> 00:03:24.038
+Seu objeto deve estar se movendo para esquerda e direita

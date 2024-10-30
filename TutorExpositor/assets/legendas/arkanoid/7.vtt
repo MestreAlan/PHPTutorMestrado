@@ -1,0 +1,54 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.600
+Veja esta situação, você controla a nave
+
+2
+00:00:03.200 --> 00:00:09.000
+e está indo atá a parede, porém sua nave passa direto por ela ao invés de bater
+
+3
+00:00:10.200 --> 00:00:14.700
+Isso acontece porque é necessário colocar um comportamento Solid (sólido) no objeto
+
+4
+00:00:15.700 --> 00:00:20.000
+O comportamento Solid (sólido) faz com que um objeto não passe por cima de outro
+
+5
+00:00:20.500 --> 00:00:23.500
+deixando o objeto sólido como se fosse uma parede no caminho
+
+6
+00:00:24.500 --> 00:00:28.000
+Para adicionar o comportamento Solid (sólido) escolha o objeto
+
+7
+00:00:36.000 --> 00:00:38.000
+e nas suas propriedades clique em Behaviors (comportamentos)
+
+8
+00:00:41.500 --> 00:00:45.000
+Clique no sinal de + para adicionar um comportamento
+
+9
+00:00:45.600 --> 00:00:47.300
+Em seguida procure por Solid (Sólido)
+
+10
+00:00:50.800 --> 00:00:52.800
+clique nele e em seguida em Add (adicionar)
+
+11
+00:00:57.000 --> 00:00:59.000
+Feche a janela de comportamentos
+
+12
+00:01:02.700 --> 00:01:06.500
+Agora execute o jogo clicando em Run Layout ou apertando F5
+
+13
+00:01:07.000 --> 00:01:10.600
+Veja que agora sua nave não atravessa o objeto verde
+

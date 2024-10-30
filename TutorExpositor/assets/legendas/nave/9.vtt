@@ -1,0 +1,70 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.400
+Olá, neste vídeo você vai aprender a criar um objeto que atira projeteis ao precionar algum botão
+
+2
+00:00:07.000 --> 00:00:09.300
+Primeiramente vamos criar um Sprit
+
+3
+00:00:26.500 --> 00:00:28.500
+E dar a ele um comportamento Bullet
+
+4
+00:00:35.400 --> 00:00:38.000
+Pronto, já temos o objeto que será lançado
+
+5
+00:00:38.500 --> 00:00:44.000
+E agora precissamos de algum lançador, precisamos fazer ele atirar nosso Bullet ao precionar um botão
+
+6
+00:00:44.001 --> 00:00:49.200
+Vamos criar nosso lançador, para isso basta criar um objeto Sprit
+
+7
+00:00:49.700 --> 00:00:53.000
+Para fazer algum lançador atirar quando pressionarmos algum botão
+
+8
+00:01:03.000 --> 00:01:04.700
+Vamos criar um objeto Keyboard também
+
+9
+00:01:09.800 --> 00:01:11.700
+Muito bem! Hora de fazer funcionar
+
+10
+00:01:12.500 --> 00:01:15.800
+Vá na aba de eventos e adicione um novo evento com a seguinte condição:
+
+11
+00:01:16.600 --> 00:01:22.600
+On key pressed, configure algum botão que quando pressionado fará nosso personagem atirar
+
+12
+00:01:23.200 --> 00:01:24.900
+No meu caso vou usar o Z
+
+13
+00:01:25.600 --> 00:01:28.500
+Agora vamos adicionar uma nova ação para o objeto atirador
+
+14
+00:01:29.300 --> 00:01:31.000
+A ação que você usar é a seguinte:
+
+15
+00:01:31.200 --> 00:01:36.000
+Spawn another object, o objeto que será "spawnado" deverá ser o nosso projétil
+
+16
+00:01:53.700 --> 00:01:57.200
+Muito bem! Nesse vídeo você acompanhou a aula lançar objetos
+
+17
+00:01:58.000 --> 00:02:03.800
+Nos próximos vídeos você acompanhará mais aulas do Contruct2, não perca, até lá!
+

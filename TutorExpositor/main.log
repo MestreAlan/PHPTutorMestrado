@@ -1,0 +1,70 @@
+﻿2021-09-11 ; 19:27:30 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:30  ; Arkanoid ; Alan ; 0 ; 1 ; undefined ; Iniciou aula Arkanoid
+2021-09-11 ; 19:27:30 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:30  ; Arkanoid ; Alan ; 0 ; 1 ; Apresentação ; Entrou_pagina
+2021-09-11 ; 19:27:35 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:35  ; Arkanoid ; Alan ; 0 ; 1 ; Abertura ; Aceitou_missao
+2021-09-11 ; 19:27:35 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:35  ; Arkanoid ; Alan ; 0 ; 1 ; Abertura ; Saiu_pagina
+2021-09-11 ; 19:27:35 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:35  ; Arkanoid ; Alan ; 0 ; 1 ; Abertura ; Entrou_pagina
+2021-09-11 ; 19:27:36 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:36  ; Arkanoid ; Alan ; 0 ; 1 ; AberturaVideo ; Ver_Video_Demo
+2021-09-11 ; 19:27:36 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:36  ; Arkanoid ; Alan ; 0 ; 1 ; AberturaVideo ; Saiu_pagina
+2021-09-11 ; 19:27:36 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:36  ; Arkanoid ; Alan ; 0 ; 1 ; AberturaVideo ; Entrou_pagina
+2021-09-11 ; 19:27:36 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:36  ; Arkanoid ; Alan ; 0 ; 1 ; AberturaVideo ; PlayV time atual: 0 tempo total do vídeo: 28.398005
+2021-09-11 ; 19:27:38 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:38  ; Arkanoid ; Alan ; 0 ; 1 ; AberturaVideo ; PauseV time atual: 1.902057 tempo total do vídeo: 28.398005
+2021-09-11 ; 19:27:41 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:41  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Fim_video_demo
+2021-09-11 ; 19:27:41 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:41  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Saiu_pagina
+2021-09-11 ; 19:27:41 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:41  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Entrou_pagina
+2021-09-11 ; 19:27:47 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:47  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Montar cenário ; Selec_pag(intro-Missão - Montar cenário)
+2021-09-11 ; 19:27:47 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:47  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Montar cenário ; Saiu_pagina
+2021-09-11 ; 19:27:47 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:47  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Montar cenário ; Entrou_pagina
+2021-09-11 ; 19:27:52 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:52  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; AvancarP
+2021-09-11 ; 19:27:52 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:52  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Saiu_pagina
+2021-09-11 ; 19:27:52 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:52  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Entrou_pagina
+2021-09-11 ; 19:27:56 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:56  ; Arkanoid ; Alan ; 0 ; 1 ; Tiled background ; Selec_pag(intro-Tiled background)
+2021-09-11 ; 19:27:56 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:56  ; Arkanoid ; Alan ; 0 ; 1 ; Tiled background ; Saiu_pagina
+2021-09-11 ; 19:27:56 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:56  ; Arkanoid ; Alan ; 0 ; 1 ; Tiled background ; Entrou_pagina
+2021-09-11 ; 19:27:59 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:59  ; Arkanoid ; Alan ; 0 ; 1 ; Vídeo Tiled background ; CarregarV(titulo_conteudo)
+2021-09-11 ; 19:27:59 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:59  ; Arkanoid ; Alan ; 0 ; 1 ; Vídeo Tiled background ; Saiu_pagina
+2021-09-11 ; 19:28:00 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:27:59  ; Arkanoid ; Alan ; 0 ; 1 ; Vídeo Tiled background ; Entrou_pagina
+2021-09-11 ; 19:28:00 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:28:00  ; Arkanoid ; Alan ; 0 ; 1 ; Vídeo Tiled background ; PlayV time atual: 0 tempo total do vídeo: 287.672022
+2021-09-11 ; 19:28:01 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:28:01  ; Arkanoid ; Alan ; 0 ; 1 ; Vídeo Tiled background ; PauseV time atual: 0.921369 tempo total do vídeo: 287.672022
+2021-09-11 ; 19:28:04 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:28:04  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Tiled background ; AvançarP
+2021-09-11 ; 19:28:04 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:28:04  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Tiled background ; Saiu_pagina
+2021-09-11 ; 19:28:04 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:28:04  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Tiled background ; Entrou_pagina
+2021-09-11 ; 19:29:34 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:29:34  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Conseguiu
+2021-09-11 ; 19:29:34 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:29:34  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Saiu_pagina
+2021-09-11 ; 19:29:34 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:29:34  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Entrou_pagina
+2021-09-11 ; 19:29:42 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:29:42  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Concluiu_missao(undefined)
+2021-09-11 ; 19:29:42 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:29:42  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Saiu_pagina
+2021-09-11 ; 19:29:42 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2021-09-11 ; 19:29:42  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Entrou_pagina
+2022-01-26 ; 17:54:58 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:54:58  ; Arkanoid ; Alan ; 0 ; 1 ; undefined ; Iniciou aula Arkanoid
+2022-01-26 ; 17:54:58 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:54:58  ; Arkanoid ; Alan ; 0 ; 1 ; Apresentação ; Entrou_pagina
+2022-01-26 ; 17:55:40 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:55:40  ; Arkanoid ; Alan ; 0 ; 1 ; Abertura ; Aceitou_missao
+2022-01-26 ; 17:55:40 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:55:40  ; Arkanoid ; Alan ; 0 ; 1 ; Abertura ; Saiu_pagina
+2022-01-26 ; 17:55:40 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:55:40  ; Arkanoid ; Alan ; 0 ; 1 ; Abertura ; Entrou_pagina
+2022-01-26 ; 17:55:59 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:55:59  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Ir_Direto_aula
+2022-01-26 ; 17:55:59 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:55:59  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Saiu_pagina
+2022-01-26 ; 17:55:59 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:55:59  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Entrou_pagina
+2022-01-26 ; 17:56:12 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:12  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Montar cenário ; Selec_pag(intro-Missão - Montar cenário)
+2022-01-26 ; 17:56:12 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:12  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Montar cenário ; Saiu_pagina
+2022-01-26 ; 17:56:12 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:12  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Montar cenário ; Entrou_pagina
+2022-01-26 ; 17:56:28 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:28  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; AvancarP
+2022-01-26 ; 17:56:28 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:28  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Saiu_pagina
+2022-01-26 ; 17:56:28 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:28  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Entrou_pagina
+2022-01-26 ; 17:56:41 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:41  ; Arkanoid ; Alan ; 0 ; 1 ; Tiled background ; Selec_pag(intro-Tiled background)
+2022-01-26 ; 17:56:41 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:41  ; Arkanoid ; Alan ; 0 ; 1 ; Tiled background ; Saiu_pagina
+2022-01-26 ; 17:56:41 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:41  ; Arkanoid ; Alan ; 0 ; 1 ; Tiled background ; Entrou_pagina
+2022-01-26 ; 17:56:58 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:58  ; Arkanoid ; Alan ; 0 ; 1 ; Vídeo Tiled background ; CarregarV(titulo_conteudo)
+2022-01-26 ; 17:56:58 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:58  ; Arkanoid ; Alan ; 0 ; 1 ; Vídeo Tiled background ; Saiu_pagina
+2022-01-26 ; 17:56:58 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:56:58  ; Arkanoid ; Alan ; 0 ; 1 ; Vídeo Tiled background ; Entrou_pagina
+2022-01-26 ; 17:57:11 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:10  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Tiled background ; AvançarP
+2022-01-26 ; 17:57:11 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:10  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Tiled background ; Saiu_pagina
+2022-01-26 ; 17:57:11 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:11  ; Arkanoid ; Alan ; 0 ; 1 ; Missão - Tiled background ; Entrou_pagina
+2022-01-26 ; 17:57:25 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:25  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Conseguiu
+2022-01-26 ; 17:57:25 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:25  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Saiu_pagina
+2022-01-26 ; 17:57:25 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:25  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário Montar cenário ; Entrou_pagina
+2022-01-26 ; 17:57:26 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:26  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Concluiu_missao(undefined)
+2022-01-26 ; 17:57:26 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:26  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Saiu_pagina
+2022-01-26 ; 17:57:26 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:26  ; Arkanoid ; Alan ; 0 ; 1 ; Sumário ; Entrou_pagina
+2022-01-26 ; 17:57:31 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:31  ; Arkanoid ; Alan ; 0 ; 1 ; Abertura ; Menu(MISSION)
+2022-01-26 ; 17:57:31 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:31  ; Arkanoid ; Alan ; 0 ; 1 ; Abertura ; Saiu_pagina
+2022-01-26 ; 17:57:31 ; 98t0old6sgqvpaq7vjus1mk5ia ; 2022-01-26 ; 17:57:31  ; Arkanoid ; Alan ; 0 ; 1 ; abertura ; Entrou_pagina
+2023-06-30 ; 08:08:30 ; jp3rgimgi6jclsmecjsc2n6b04 ; 2023-06-30 ; 08:08:30  ; Arkanoid ; as ; 0 ; 1 ; undefined ; Iniciou aula Arkanoid
+2023-06-30 ; 08:08:30 ; jp3rgimgi6jclsmecjsc2n6b04 ; 2023-06-30 ; 08:08:30  ; Arkanoid ; as ; 0 ; 1 ; Apresentação ; Entrou_pagina

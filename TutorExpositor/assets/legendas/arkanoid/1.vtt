@@ -1,0 +1,190 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.000
+O objeto do TiledBackground é poder exibir uma imagem com um padrão de repetição
+
+2
+00:00:05.200 --> 00:00:09.033
+Como essa imagem deste cenário, o tijolo é apenas uma única imagem
+
+3
+00:00:10.000 --> 00:00:15.200
+com o TiledBackground essa imagem se repetiu e formou uma parede
+
+4
+00:00:16.000 --> 00:00:20.100
+O TiledBackground é mais usado para criar o plano de fundo para seus jogos
+
+5
+00:00:20.200 --> 00:00:22.400
+Agora vamos montar o mesmo cenário
+
+6
+00:00:22.800 --> 00:00:25.000
+Para adicionar um TiledBackground é bem simples
+
+7
+00:00:26.599 --> 00:00:27.000
+Dê dois cliques na tela de Layout
+
+8
+00:00:27.600 --> 00:00:31.000
+Na janela que foi aberta procure o TiledBackground
+
+9
+00:00:32.000 --> 00:00:34.500
+Clique nele e em seguida, clique em Insert
+
+10
+00:00:37.000 --> 00:00:42.800
+Ao clicar em Insert (inserir) escolha um lugar para colocar a sua imagem e clique no local
+
+11
+00:00:47.000 --> 00:00:49.000
+Veja que uma nova janela foi aberta
+
+12
+00:00:49.500 --> 00:00:55.000
+Nela nós podemos desenhar e procurar imagens do computador para usar em nosso jogo
+
+13
+00:00:55.500 --> 00:00:59.500
+Clique no ícone de Pasta e procure pela imagem de exemplo no seu computador
+
+14
+00:01:01.000 --> 00:01:02.800
+Ao encontrar clique em Abrir
+
+15
+00:01:06.000 --> 00:01:10.000
+Com a nossa imagem escolhida nós podemos fechar essa janela
+
+16
+00:01:15.500 --> 00:01:19.000
+Veja que esse único bloco irá se repetir e formar uma parede
+
+17
+00:01:19.400 --> 00:01:23.300
+Você pode mudar o local de qualquer objeto na tela de layout
+
+18
+00:01:23.800 --> 00:01:28.000
+Para isso clique e arraste a imagem para o local que você quer que ela fique
+
+19
+00:01:34.500 --> 00:01:37.800
+Veja que a imagem possui alguns quadrados no final
+
+20
+00:01:39.000 --> 00:01:43.500
+Ao clicar e arrastar esses quadrados nós podemos aumentar ou diminuir o tamanho
+
+21
+00:01:44.000 --> 00:01:48.800
+Então nós podemos mudar o objeto de lugar e alterar o seu tamanho
+
+22
+00:01:54.500 --> 00:01:59.000
+Veja que o TiledBackground possui suas propriedades no lado esquerdo da tela
+
+23
+00:02:00.000 --> 00:02:03.200
+Vamos modificar o nome do nosso objeto clicando em Name
+
+24
+00:02:04.000 --> 00:02:08.200
+Sempre coloque nome nos seus objetos para ser mais fácil de identificá-los
+
+25
+00:02:10.699 --> 00:02:11.300
+Nesse exemplo, o nome do objeto será Parede
+
+26
+00:02:11.700 --> 00:02:18.800
+O TiledBackground possui outras propriedades como mudar o ângulo, clicando em Angle e modificando o valor
+
+27
+00:02:19.100 --> 00:02:23.500
+Veja que ao colocar 90 a imagem mudou e ficou apontando para baixo
+
+28
+00:02:24.500 --> 00:02:27.000
+Para voltar ao normal basta colocar o valor 0
+
+29
+00:02:28.000 --> 00:02:32.000
+Também é possível mudar a posição do objeto colocando o valor da posição
+
+30
+00:02:34.000 --> 00:02:39.500
+Para saber o valor de posição basta você colocar o mouse na posição desejada
+
+31
+00:02:40.000 --> 00:02:46.400
+e olhar no canto direito da tela o valor daquela posição, onde há o nome mouse e três valores
+
+32
+00:02:47.000 --> 00:02:54.000
+Como exemplo coloque a sua imagem na posição 150,150 e veja que ela mudará de lugar
+
+33
+00:03:01.500 --> 00:03:09.600
+Vamos deixar a imagem na posição 0.0 que é o valor correspondente a ponta esquerda da área branca
+
+34
+00:03:10.500 --> 00:03:13.500
+E em Size nós podemos aumentar ou diminuir a imagem
+
+35
+00:03:14.000 --> 00:03:18.000
+da mesma forma que também é possível clicando nos quadrados ao redor da imagem
+
+36
+00:03:19.000 --> 00:03:22.000
+Agora vamos adicionar outro TiledBackground
+
+37
+00:03:23.000 --> 00:03:27.500
+Dê dois cliques na Tela de Layout e escolha o objeto TiledBackground
+
+38
+00:03:32.700 --> 00:03:37.000
+E clique em Insert (inserir) e no local para imagem aparecer
+
+39
+00:03:37.500 --> 00:03:41.000
+Dessa vez vamos desenhar o nosso plano de fundo
+
+40
+00:03:43.500 --> 00:03:47.000
+Clique no ícone de Balde de Tinta e escolha a cor Preta
+
+41
+00:03:51.700 --> 00:03:55.000
+Em seguida, clique no quadrado para pintar a parte de dentro
+
+42
+00:03:55.500 --> 00:03:58.600
+Agora pegue o pincel e a cor amarela
+
+43
+00:04:07.500 --> 00:04:13.000
+Na parte preta faça dois riscos amarelos para parecer um pedaço de uma pista
+
+44
+00:04:19.500 --> 00:04:21.000
+Veja que os riscos se repetiram
+
+45
+00:04:22.000 --> 00:04:26.700
+Agora basta alterar o seu tamanho e preencher o restante da área branca com essa imagem
+
+46
+00:04:27.400 --> 00:04:33.000
+Lembrando que para alterar o tamanho basta clicar e arrastar o mouse nos quadrados do lado da imagem
+
+47
+00:04:34.800 --> 00:04:39.000
+Dessa forma, montamos um cenário simples usando o TiledBackground
+

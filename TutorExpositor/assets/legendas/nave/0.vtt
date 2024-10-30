@@ -1,0 +1,54 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:00.800
+Olá, bem vindo!
+
+2
+00:00:00.801 --> 00:00:05.501
+Nesse vídeo você vai ver a demostração do jogo de nave simples, veja só!
+
+3
+00:00:05.602 --> 00:00:08.702
+O jogo nave simples, o jogador tem o controle de uma nave.
+
+4
+00:00:09.103 --> 00:00:12.003
+Ela pode ser movimentada da esquerda para direita.
+
+5
+00:00:12.204 --> 00:00:15.504
+E ao chegar as extremidades, a nave não sai da tela.
+
+6
+00:00:16.005 --> 00:00:21.205
+Para atirar, basta apertar na "barra de espaço" que o tiro sairá cada ponto da nave.
+
+7
+00:00:21.506 --> 00:00:26.506
+O principal objetivo é não permitir que a nave alcance e colida com a nave do personagem.
+
+8
+00:00:26.507 --> 00:00:31.607
+Se não o jogo irá reiniciar, caso a nave inimiga derrote a nave do jogador.
+
+9
+00:00:31.708 --> 00:00:34.608
+E tome cuidado para não gastar todas as suas balas.
+
+10
+00:00:34.709 --> 00:00:37.509
+Para que sua munição não acabe rapidamente.
+
+11
+00:00:38.110 --> 00:00:41.310
+Neste vídeo, você viu a demostração do jogo de nave simples.
+
+12
+00:00:41.511 --> 00:00:45.511
+Nos próximos vídeos você vai acompanhar o desenvolvimento do jogo
+
+13
+00:00:45.512 --> 00:00:47.112
+Não deixe de assistir, até lá!
+

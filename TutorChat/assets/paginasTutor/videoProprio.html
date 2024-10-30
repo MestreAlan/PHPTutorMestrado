@@ -1,0 +1,16 @@
+<script type="text/javascript" src="assets/geral/videoControl.js"></script>
+
+<div class="conteudoVideo">
+    <video controls id="Video1"> 
+        <source src="" type="video/mp4">
+		<track kind="subtitles" src="" srclang="en"  default>
+    </video>
+</div>
+<script>
+	$("#Video1 > source").attr("src", links[0]);
+	$("#Video1 > track").attr("src", links[1]);
+
+	var left = ($("quadroConteudo").width() /2) - ( $("#Video1").width() / 2 );
+	var top = ($("quadroConteudo").height() / 2) - ( $("#Video1").height() / 2 );
+	$("#Video1").css({'top':top,'left':left});
+</script>

@@ -1,0 +1,70 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.000
+Olá, hoje a missão é aprender como criar objetos na tela durante o jogo e como utilizar a função Randon
+
+2
+00:00:06.700 --> 00:00:12.600
+Para criar objetos na tela é necessário que tenha uma condição na página de eventos e que tenha a ação de criar o objeto
+
+3
+00:00:12.700 --> 00:00:15.600
+Sendo ela uma condição vazia ou não
+
+4
+00:00:15.900 --> 00:00:19.500
+Pois o criar objetos é uma ação na página de eventos
+
+5
+00:00:19.800 --> 00:00:23.200
+Clique em Add action, System e Create object
+
+6
+00:00:24.900 --> 00:00:31.000
+Na janela que é aberta, em Object to create, você pode clicar para escolher o objeto será criado
+
+7
+00:00:31.400 --> 00:00:35.800
+Na opção Layer, você pode escolher em qual camada do jogo a imagem será criada
+
+8
+00:00:36.100 --> 00:00:40.000
+Podendo escolher um número na camada ou nome da camada entre aspas
+
+9
+00:00:41.000 --> 00:00:47.000
+E onde tem X e o Y, você coloca o valor da coordenada que você quer que o objeto seja criado
+
+10
+00:00:48.000 --> 00:00:51.000
+Para fazer com que esse objeto seja criado em posições aleatórias
+
+11
+00:00:52.000 --> 00:00:53.800
+Você pode fazer o uso da função Random
+
+12
+00:00:54.000 --> 00:01:00.700
+Essa função faz com que o jogo escolha um número aleatório, de 0 até o número que você escolher
+
+13
+00:01:01.000 --> 00:01:03.000
+Ou número aleatório entre dois números
+
+14
+00:01:03.001 --> 00:01:07.400
+Note que ao executar o exemplo, os objetos estão sendo criados na tela
+
+15
+00:01:07.600 --> 00:01:12.000
+Em posições diferentes que estão sendo escolhidas pelo computador com a função Random
+
+16
+00:01:13.500 --> 00:01:17.000
+Nesse vídeo você acompanhou como criar objetos com a função Random
+
+17
+00:01:17.100 --> 00:01:20.000
+Não deixe de acompanhar as próximas aulas, até lá!
+

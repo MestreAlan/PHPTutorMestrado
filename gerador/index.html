@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 3: Layouts</title>
+
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet">
+	<script src="assets/agentes/controlador.js" type="text/javascript"></script>
+	
+	<script>
+		var nome_aula = 'aula';
+		var dados;
+		var id_cadastro_expositor = 1;
+		var id_cadastro_chat = 1;
+		var titulo_cadastro;
+		var contexto_cadastro;
+		var momento = 1;
+		
+		var id_contexto_cadastro_expositor;
+		var id_contexto_cadastro_chat;
+		
+		var links_cadastro = [];
+		
+		var dados_para_gerar_aula_expositor = [];//Usa estes dados para gerar o json
+		var dados_para_gerar_aula_chat = [];//Usa estes dados para gerar o json
+	</script>
+
+
+</head>
+<body>
+    <div class="container">
+		<header class="row">
+			
+		</header>
+		<div class="row">
+			<div role="main" class="col-md-8 dados">
+				
+			</div>
+			<aside role="complementary" class="col-md-4 conteudo">
+				
+			</aside>
+		</div>
+		<footer class="row">
+			
+		</footer>
+	</div>
+	<script>atualizar_contexto();</script>
+</body>
+</html>

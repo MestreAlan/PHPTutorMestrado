@@ -1,0 +1,133 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.400
+O objeto "Text" serve para colocar texto no seu jogo
+
+2
+00:00:03.401 --> 00:00:07.901
+Geralmente, ele é usado para mostrar informações ao jogador
+
+3
+00:00:08.202 --> 00:00:12.302
+Como mostrar os pontos ou quantidade de moedas que o jogador pegou
+
+4
+00:00:12.503 --> 00:00:15.503
+Então, vamos adicionar um objeto Text
+
+5
+00:00:15.904 --> 00:00:21.304
+Para isso, de dois cliques na tela de Layout e procure pelo objeto Text
+
+6
+00:00:25.005 --> 00:00:27.905
+Clique nele e depois em Insert
+
+7
+00:00:32.406 --> 00:00:37.506
+Em seguida, escolha um local para seu texto aparecer e clique na tela
+
+8
+00:00:40.707 --> 00:00:45.007
+Veja que seu objeto Text foi adicionado na tela de Layout
+
+9
+00:00:46.008 --> 00:00:51.508
+Assim, com os outros objetos, o Text também possui as propriedades básicas
+
+10
+00:00:51.709 --> 00:00:55.709
+Como alterar o nome, ângulo, posição e tamanho
+
+11
+00:00:56.410 --> 00:01:01.210
+Mas abaixo da janela de propriedades, há propriedades específicas do objeto Text
+
+12
+00:01:04.411 --> 00:01:10.011
+Ao clicar na opção Text, é possível mudar o texto que aparece na tela de Layout
+
+13
+00:01:10.112 --> 00:01:13.012
+Digite um texto qualquer e veja oque acontece
+
+14
+00:01:17.513 --> 00:01:19.513
+Perceba que o texto no objeto mudou
+
+15
+00:01:19.914 --> 00:01:23.014
+Agora coloque um texto maior na opção Text
+
+16
+00:01:34.215 --> 00:01:39.815
+Ao digitar o texto maior, você vai ver que ela não aparecerá na tela de Layout
+
+17
+00:01:39.916 --> 00:01:44.316
+Isso acontece, porque a caixa de texto está pequena para o tamanho do texto
+
+18
+00:01:45.117 --> 00:01:49.317
+Assim, com outros objetos, nós podemos alterar o tamanho
+
+19
+00:01:49.518 --> 00:01:53.218
+Clicando e arrastando os quadrados ao lado do objeto
+
+20
+00:01:53.319 --> 00:01:58.519
+Veja que, à medida que aumentamos o tamanho, o restante do texto aparece na tela
+
+21
+00:02:02.120 --> 00:02:05.920
+Vamos para as próximas propriedades do objeto Text
+
+22
+00:02:07.021 --> 00:02:12.521
+Em Initial visibility, você pode escolher se o objeto estará visível ou invisível
+
+23
+00:02:14.122 --> 00:02:19.022
+Na opção Font, podemos mudar o tamanho e a fonte do texto
+
+24
+00:02:19.223 --> 00:02:24.523
+Clique na opção Font e veja que uma nova janela com varias fontes é aberta
+
+25
+00:02:24.924 --> 00:02:29.824
+Neste exemplo, vamos colocar a fonte Comic Sans MS
+
+26
+00:02:29.925 --> 00:02:31.625
+Clique nala para escolher
+
+27
+00:02:31.926 --> 00:02:37.226
+Vamos deixar o texto em negrito, também clicando na opção e no tamanho para 22
+
+28
+00:02:38.227 --> 00:02:40.327
+Veja que seu texto ficou com uma letra maior
+
+29
+00:02:41.128 --> 00:02:43.528
+E não está mais cabendo na caixa de texto
+
+30
+00:02:43.529 --> 00:02:48.029
+Agora basta aumentar a caixa de texto e seu texto aparecerá
+
+31
+00:02:48.230 --> 00:02:52.130
+Também é possível alterar a cor do texto, nas propriedades clique em Color
+
+32
+00:02:53.031 --> 00:02:56.031
+Escolha uma cor para seu texto, clicando na cor desejada
+
+33
+00:02:56.832 --> 00:03:01.332
+Perceba que a cor do seu texto mudou para a cor que você escolheu

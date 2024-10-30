@@ -1,0 +1,73 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.700
+É muito comum quando colocamos nosso objeto para se mover
+
+2
+00:00:04.966 --> 00:00:06.200
+ele sair da tela de jogo
+
+3
+00:00:06.800 --> 00:00:09.800
+Mas em alguns casos não é isso que precisamos em nosso jogo
+
+4
+00:00:10.000 --> 00:00:12.800
+É necessário que ele sempre fique na tela de jogo
+
+5
+00:00:13.500 --> 00:00:17.500
+Para isso há um comportamento Bound To Layout  (Preso a tela)
+
+6
+00:00:17.800 --> 00:00:22.000
+Para nosso objeto não sair da tela de jogo á necessário adicionar esse comportamento
+
+7
+00:00:22.800 --> 00:00:24.500
+Escolha o objeto que você quer adicionar
+
+8
+00:00:25.600 --> 00:00:27.600
+Nas propriedades do objeto vá ate Behaviors (comportamento)
+
+9
+00:00:31.500 --> 00:00:33.700
+um objeto pode ter mais de comportamento
+
+10
+00:00:34.000 --> 00:00:37.500
+Clique em Behaviors (comportamento) para pode adicionar mais comportamentos
+
+11
+00:00:37.800 --> 00:00:41.000
+Veja que nosso objeto já tem um comportamento de 8 direções
+
+12
+00:00:41.600 --> 00:00:45.000
+Agora vamos adicionar mais um clicando no sinal de +
+
+13
+00:00:46.000 --> 00:00:50.500
+Na janela aberta procure Bound To Layout (Preso a Tela) e clique em Add (adicionar)
+
+14
+00:00:51.500 --> 00:00:55.000
+Dessa forma você está dizendo que este objeto está preso a tela
+
+15
+00:00:55.500 --> 00:00:58.000
+agora pode fechar a tela de comportamentos
+
+16
+00:01:00.700 --> 00:01:03.000
+Agora vamos testar o comportamento executando o jogo
+
+17
+00:01:04.000 --> 00:01:08.000
+Clicando em Run Layout ou apertando F5 no seu teclado
+
+18
+00:01:08.500 --> 00:01:13.000
+Veja que agora o objeto não sai mais da tela como foi mostrado no início do vídeo

@@ -1,0 +1,119 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.000
+Veja neste exemplo que sempre a bola colide com um bloco o valor de pontos aumenta
+
+2
+00:00:05.500 --> 00:00:09.500
+A pontuação é um dos grandes motivos para motivarem os jogadores
+
+3
+00:00:09.600 --> 00:00:12.000
+Principalmente os jogadores competitivos
+
+4
+00:00:12.500 --> 00:00:18.000
+Veja que também temos uma variável global e ela vai guardar o total de pontos do jogador
+
+5
+00:00:18.500 --> 00:00:22.000
+E temos o evento de colisão entre a bola e o bloco verde
+
+6
+00:00:22.600 --> 00:00:27.200
+Nós temos que aumentar o valor da variável Pontos, já que ela está em 0
+
+7
+00:00:27.700 --> 00:00:29.000
+Clique em Add action
+
+8
+00:00:33.300 --> 00:00:38.000
+Como queremos aumentar o valor da variável e ela não é um objeto, sua ação vai está em System (sistema)
+
+9
+00:00:38.800 --> 00:00:42.500
+Para adicionar valores na variável procure por Add To (adicionar para)
+
+10
+00:00:44.000 --> 00:00:46.500
+e dê dois cliques para abrir as opções
+
+11
+00:00:47.500 --> 00:00:51.000
+Veja que a nossa variável pontos está aparecendo em Variable (variável)
+
+12
+00:00:51.600 --> 00:00:55.700
+E em Velue (valor) nós colocamos o valor que vai aumentar, vamos colocar 10
+
+13
+00:00:56.500 --> 00:00:58.200
+e clique em Done (feito) para confirma
+
+14
+00:01:05.200 --> 00:01:11.300
+Essa ação ela adiciona um valor ao que já existia, por exemplo, se em pontos tivesse o valor 10
+
+15
+00:01:11.500 --> 00:01:17.500
+essa ação faria ele ficar com 20, pois seria os 10 de antes + os 10 que foi adicionado
+
+16
+00:01:18.000 --> 00:01:24.000
+Porém os pontos ainda não aparecem no jogo, temos que fazer o Objeto Text (texto) mostrar os pontos
+
+17
+00:01:24.000 --> 00:01:25.200
+Clique em Add Action (adicionar ação)
+
+18
+00:01:26.400 --> 00:01:31.000
+como vamos utilizar o objeto Text dê dois cliques nele para mostrar as ações
+
+19
+00:01:31.600 --> 00:01:34.100
+Para alterar o texto procure por Set Text (Mudar Texto)
+
+20
+
+00:01:37.500 --> 00:01:39.000
+Dê dois cliques para confirmar
+
+21
+00:01:39.800 --> 00:01:43.700
+Nessa janela, em Text nós colocamos o texto que deve aparecer
+
+22
+00:01:44.500 --> 00:01:52.300
+o texto sempre deve estar entre aspas, nesse caso vamos colocar "Pontos: "
+
+23
+00:01:52.700 --> 00:01:57.000
+em seguida, coloque um & ele serve para juntar dois textos
+
+24
+00:01:57.500 --> 00:02:01.000
+e depois dele coloque o nome da variável que é Pontos
+
+25
+00:02:07.200 --> 00:02:08.500
+E clique em Done (feito) para confirmar
+
+26
+00:02:09.000 --> 00:02:14.000
+Assim o evento está verificando, Se a bola colidir com o bloco verde então o bloco verde destrói
+
+27
+00:02:14.500 --> 00:02:18.300
+adiciona 10 na variável pontos e muda o texto no objeto Text
+
+28
+00:02:18.600 --> 00:02:23.000
+Agora clique em Run Layout ou aperte F5 e veja o resultado
+
+29
+00:02:23.700 --> 00:02:26.000
+Seus pontos já estão sendo contados
+

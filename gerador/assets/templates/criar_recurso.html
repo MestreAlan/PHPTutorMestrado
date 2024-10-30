@@ -1,0 +1,44 @@
+<form action="javascript:atualizar_contexto();">
+  <center>Qual o nome do recurso que o aluno irá aprender:</center><br>
+  <center><input type="text" name="nome_sub-sumario" id="nome_recurso"></center><br>
+  <center>Faça um resumo do que o aluno irá aprender:</center><br>
+  <center><input type="text" name="nome_sub-sumario" id="contexto_recurso"></center><br>
+  <center>Link do vídeo:</center>
+  <center><input type"text" name="video" id="video"></center><br>
+  <center>*Link da legenda:</center>
+  <center><input type="text" name="legenda" id="legenda"></center><br><br>
+  <center><input type="submit" value="Enviar" id="enviar_dados"></center>
+</form>
+
+<script>
+	document.getElementById("enviar_dados").onclick = function(e) {
+		titulo_cadastro = document.getElementById("nome_recurso").value;
+		contexto_cadastro = document.getElementById("contexto_recurso").value;
+		links_cadastro[0] = document.getElementById("video").value;
+		links_cadastro[1] = document.getElementById("legenda").value;
+		
+		dados_para_gerar_aula_expositor.push([id_cadastro_expositor,"explicacao_recurso",titulo_cadastro,titulo_cadastro,contexto_cadastro,[id_cadastro_expositor+1,id_cadastro_expositor+2],[],momento,"id_contexto_cadastro_expositor"]);
+		id_cadastro_expositor += 1;
+		dados_para_gerar_aula_expositor.push([id_cadastro_expositor,"paginaVideo","Vídeo "+titulo_cadastro,"Vídeo","",[id_cadastro_expositor+1],[links_cadastro[0],links_cadastro[1]],0,""]);
+		id_cadastro_expositor += 1;
+		dados_para_gerar_aula_expositor.push([id_cadastro_expositor,"recursoInteracao","Missão - "+titulo_cadastro,titulo_cadastro,"",[id_contexto_cadastro_expositor,id_cadastro_expositor+1],[],0,""]);
+		id_cadastro_expositor += 1;
+		dados_para_gerar_aula_expositor.push([id_cadastro_expositor,"ajuda_recurso","Missão - "+titulo_cadastro,"Ajuda "+titulo_cadastro,"",[id_cadastro_expositor-2,id_contexto_cadastro_expositor],[],0,""]);
+		id_cadastro_expositor += 1;
+		for(var i=0;i<dados_para_gerar_aula_expositor.length;i++){
+			if(id_contexto_cadastro_expositor==dados_para_gerar_aula_expositor[i][0]){
+				dados_para_gerar_aula_expositor[i][5].push(id_cadastro_expositor-4);
+			}
+		}
+		
+		dados_para_gerar_aula_chat.push([id_cadastro_chat,5,titulo_cadastro,["Um vídeo foi aberto sobre o tema "+titulo_cadastro+".","Eu carreguei um vídeo sobre o tema "+titulo_cadastro+".","Encontrei um vídeo sobre "+titulo_cadastro+" em meu banco de dados, estou carregando ele para você =D."],[id_contexto_cadastro_chat],[""],[links_cadastro[0],links_cadastro[1]],momento,"id_contexto_cadastro_chat"]);
+		id_cadastro_chat += 1;
+		for(var i=0;i<dados_para_gerar_aula_chat.length;i++){
+			if(id_contexto_cadastro_chat==dados_para_gerar_aula_chat[i][0]){
+				dados_para_gerar_aula_chat[i][4].push(id_cadastro_chat-1);
+			}
+		}
+		
+		momento += 1;
+	}
+</script>

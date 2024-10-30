@@ -1,0 +1,59 @@
+html{
+	height: 100%;
+}
+
+body {
+	text-align:left;
+	background: #000;
+	font-family: Verdana, Tahoma, Arial;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+* {
+	list-style:none; 
+	padding:0px;
+	margin:0px;
+}
+
+#all{
+	height:100%;
+	width:100%;
+	margin:auto;
+}
+
+#tutor{
+	display:flex;
+    justify-content:center;
+    align-items:center;
+    width:60%;
+    float:left;
+    padding-right:10px;
+	z-index: 4;	
+}
+
+#quadroConteudo{
+    box-shadow: 0 0 30px #9b9b9b;
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    z-index: 1;	
+    border-radius: 10px;
+    padding: 5px;
+	overflow: auto;
+    background-color: rgba(173,216,230,.9);
+}
+
+#quadroConteudo .conteudoVideo{
+	width: 100%;
+}
+
+#quadroConteudo .conteudoVideo video{
+    background-color: rgba(0,0,0,.0);
+    width: 100%;
+}
+
+#quadroConteudo .conteudoVideo #Video1{
+    z-index:2;
+}

@@ -1,0 +1,102 @@
+﻿WEBVTT
+
+1
+00:00:00.100 --> 00:00:03.800
+Olá, no vídeo de hoje você vai conhecer o objeto "Tiled Background".
+
+2
+00:00:03.801 --> 00:00:08.401
+O objeto "Tiled Background" pode exibir uma imagem com padrão de repetição.
+
+3
+00:00:08.402 --> 00:00:10.502
+Repetindo na imagem ao lado.
+
+4
+00:00:10.503 --> 00:00:13.303
+Sendo ideal para o uso de plano de fundo do jogo.
+
+5
+00:00:13.304 --> 00:00:15.404
+Diferente do "Objeto Sprit".
+
+6
+00:00:15.405 --> 00:00:19.505
+Que ao aumentar o tamanho da imagem do objeto ele fica esticado.
+
+7
+00:00:20.006 --> 00:00:22.806
+Para adicionar o "Tiled Background" é bem simples.
+
+8
+00:00:23.007 --> 00:00:26.507
+Basta você clicar duas vezes com o botão esquerdo do mouse na janela de "Layout".
+
+9
+00:00:26.808 --> 00:00:31.008
+E na janela que é aberta, basta clicar no objeto "Tiled Background".
+
+10
+00:00:31.109 --> 00:00:32.909
+Ao clicar nesse objeto.
+
+11
+00:00:33.010 --> 00:00:34.510
+Uma nova janela se abrirá.
+
+12
+00:00:34.511 --> 00:00:38.311
+Para você desenhar o objeto ou escolher alguma imagem do computador.
+
+13
+00:00:38.512 --> 00:00:42.212
+Para escolher a imagem do computador basta clicar no ícone da pasta.
+
+14
+00:00:42.213 --> 00:00:46.413
+E procurar em seu computador a imagem que deseja colocar em seu objeto
+
+15
+00:00:46.414 --> 00:00:52.214
+Em seguida, a janela pode ser fechada e seu objeto vai estar fazendo parte da tela de Layout.
+
+16
+00:00:52.415 --> 00:00:54.215
+Perceba que a imagem não estica.
+
+17
+00:00:54.216 --> 00:00:56.416
+Apenas é repetida a medida que o tamanho é alterado
+
+18
+00:00:56.617 --> 00:01:00.317
+O "Tiled Background", tem por propriedades, a image.
+
+19
+00:01:00.318 --> 00:01:03.418
+Que ao clicar na opção "edit", a janela para editar imagem.
+
+20
+00:01:03.419 --> 00:01:06.319
+Ou escolher outra imagem para substituir, aparecerá.
+
+21
+00:01:06.420 --> 00:01:11.320
+"Initial Visibility", escolher em que estado o objeto se encontra ao iniciar o jogo.
+
+22
+00:01:11.421 --> 00:01:14.521
+Se ele começa visível ou invisível para o jogador.
+
+23
+00:01:14.722 --> 00:01:21.522
+O "Hotspot", serve para modificar o ponto de origem do objeto, de acordo com a necessidade do programador.
+
+24
+00:01:21.723 --> 00:01:25.323
+Nesse vídeo você conheceu o objeto "Tiled Background".
+
+25
+00:01:25.424 --> 00:01:28.024
+Não deixe de acompanhar os próximos vídeos, até lá!
+

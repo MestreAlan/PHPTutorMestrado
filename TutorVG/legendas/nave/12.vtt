@@ -1,0 +1,90 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.000
+Colisão é uma muito importante nós jogos
+
+2
+00:00:02.500 --> 00:00:06.000
+Nesse exemplo quando a bola colide com o bloco, ele é destruído
+
+3
+00:00:06.800 --> 00:00:13.000
+Nesse projeto a bola já começa em movimento. Clique nela e veja que o Speed (velocidade) está em 400
+
+4
+00:00:13.800 --> 00:00:16.500
+E o Bounce off Solids (rebater em sólidos) está em Yes
+
+5
+00:00:17.600 --> 00:00:21.000
+Agora, vamos criar um evento de colisão entre dois objetos
+
+6
+00:00:21.500 --> 00:00:23.000
+Clique na Event Sheet (página de eventos)
+
+7
+00:00:26.800 --> 00:00:31.000
+Na Event Sheet, clique em Add Event para adicionar um evento
+
+8
+00:00:34.500 --> 00:00:38.000
+Vamos criar uma colisão entre a bola e o bloco verde
+
+9
+00:00:38.500 --> 00:00:42.500
+Dê dois cliques na bola para aparecer as condições que a bola pode ter
+
+10
+00:00:43.000 --> 00:00:48.800
+Procure por On collision with another object, ele verifica se o objeto colidiu com outro
+
+11
+00:00:49.000 --> 00:00:50.600
+Dê dois cliques nele
+
+12
+00:00:54.500 --> 00:01:01.000
+Nessa janela, clique em Click to Choose para escolher um objeto para ver se ele colidiu com a bola
+
+13
+00:01:03.800 --> 00:01:07.500
+Nesse caso, vamos escolher o bloco verde, dê dois cliques para escolher
+
+14
+00:01:09.500 --> 00:01:11.500
+E clique em Done (feito) para concluir
+
+15
+00:01:14.000 --> 00:01:17.600
+Assim o evento está verificando se a bola colidiu com o bloco verde
+
+16
+00:01:18.000 --> 00:01:22.000
+porém devemos colocar alguma ação para que algo aconteça
+
+17
+00:01:22.500 --> 00:01:28.000
+Vamos fazer o bloco ser destruído quando a colisão acontecer, clique em Add Action (adicionar ação)
+
+18
+00:01:28.500 --> 00:01:33.000
+Como é o bloco que será destruído, clique no bloco verde para procurar ações para ele
+
+19
+00:01:38.500 --> 00:01:40.200
+Procure pela ação Destroy (destruir)
+
+20
+00:01:41.000 --> 00:01:46.000
+E dê dois cliques para adicionar está ação, ela fará o objeto sumir da tela
+
+21
+00:01:47.000 --> 00:01:53.000
+Assim o seu evento está se a bola colidir com o bloco verde, então o bloco verde é destruído
+
+22
+00:01:54.500 --> 00:01:59.500
+Execute o jogo clicando em Run Layout ou Apertando F5 e veja o resultado
+

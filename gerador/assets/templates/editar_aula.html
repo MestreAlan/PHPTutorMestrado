@@ -1,0 +1,40 @@
+<form action="javascript:atualizar_contexto();">
+  <center>Nome do jogo da aula:</center><br>
+  <center><input type="text" name="nome_aula" id="nome_aula" value=""></center><br>
+  <center>Link do vídeo explicativo sobre seu jogo:</center>
+  <center><input type="text" name="video" id="video_abertura_aula" value=""></center><br>
+  <center>*Link da legenda:</center>
+  <center><input type="text" name="legenda" id="legenda_abertura_aula" value=""></center><br><br>
+  <center><input type="submit" value="Enviar" id="enviar_dados_criar_aula"></center>
+</form>
+
+<script>
+	var input = document.getElementById("nome_aula");
+	input.value = dados_para_gerar_aula_expositor[0][0] ;
+	var input = document.getElementById("video_abertura_aula");
+	input.value = dados_para_gerar_aula_expositor[4][6][0] ;
+	var input = document.getElementById("legenda_abertura_aula");
+	input.value = dados_para_gerar_aula_expositor[4][6][1] ;
+	document.getElementById("enviar_dados_criar_aula").onclick = function(e) {
+		nome_aula = document.getElementById("nome_aula").value;
+		links_cadastro[0] = document.getElementById("video_abertura_aula").value;
+		links_cadastro[1] = document.getElementById("legenda_abertura_aula").value;
+		
+		dados_para_gerar_aula_expositor[0][0]=nome_aula;
+		dados_para_gerar_aula_expositor[1][4]= "Sua missão: Fazer um jogo estilo "+nome_aula+".";
+		dados_para_gerar_aula_expositor[2][4]="Quer ver como um jogo estilo "+nome_aula+" funciona?";
+		dados_para_gerar_aula_expositor[4][6][0]=links_cadastro[0];
+		dados_para_gerar_aula_expositor[4][6][1]=links_cadastro[1];
+		
+		dados_para_gerar_aula_chat[2][3] = [
+					"O problema para ser resolvido nesta aula é construir um jogo no estilo "+nome_aula+" utilizando a ferramenta Construct.",
+					"O problema que proponho que vc resolva é construir um jogo no estilo "+nome_aula+" utilizando a ferramenta Construct. Aproveite e pesquise algo sobre a ferramenta proposta.",
+					"O problema para ser resolvido nesta aula é construir um jogo no estilo "+nome_aula+" utilizando a ferramenta Construct. Aproveite e pesquise algo sobre a ferramenta proposta."
+				];
+		dados_para_gerar_aula_chat[3][3] = [
+					"Esta aula é dividida em conjuntos de atividades que permitirão que vc progrida na resolução do problema proposto. Sinta-se à avontade para escolher a que vc quiser.",
+					"Para esta aula dividi os conteúdos em conjuntos de atividades. Às vezes vou direcionar você para os conteúdos que acho necessários que sejam vistos.",
+					"Estou listando um conjunto de atividades para você adquirir conhecimentos básicos para resolver o problema proposto."
+				];
+	}
+</script>

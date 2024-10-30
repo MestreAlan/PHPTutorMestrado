@@ -1,0 +1,36 @@
+<form action="javascript:atualizar_contexto();">
+  <center>escreva o novo nome do sub-sumário:</center><br>
+  <center><input type="text" name="nome_sub-sumario" id="nome_sub_sumario"></center><br>
+  <center><input type="submit" value="Enviar" id="enviar_dados"></center>
+</form>
+
+<script>
+	document.getElementById("enviar_dados").onclick = function(e) {
+		titulo_cadastro = document.getElementById("nome_sub_sumario").value;
+		
+		for(var i=0;i<dados_para_gerar_aula_expositor.length;i++){
+			if(dados_para_gerar_aula_expositor[i][0]==id_contexto_cadastro_expositor){
+				
+				dados_para_gerar_aula_expositor[i][2]="Missão - "+titulo_cadastro;
+				dados_para_gerar_aula_expositor[i][3]=titulo_cadastro;
+				dados_para_gerar_aula_expositor[i][4]="Aqui você será capaz de "+titulo_cadastro+".";
+				dados_para_gerar_aula_expositor[i+1][2]="Sumário "+titulo_cadastro;
+				
+				i=dados_para_gerar_aula_expositor.length;
+			}
+		}
+		
+		for(var i=0;i<dados_para_gerar_aula_chat.length;i++){
+			if(dados_para_gerar_aula_chat[i][0]==id_contexto_cadastro_chat){
+				
+				dados_para_gerar_aula_chat[i][2] = titulo_cadastro;
+				dados_para_gerar_aula_chat[i][3] = [
+					"Como montar um cenário no Construct? Aqui você aprenderá os conceitos básicos sobre "+titulo_cadastro+". Lembre-se que a primeira opção volta para o sumário principal.",
+					"Você quer saber como "+titulo_cadastro+" no Construct não é? Aqui você aprenderá como "+titulo_cadastro+" para o jogo Arkanoid.",
+					"Aqui você aprenderá como "+titulo_cadastro+" para seu jogo Arkanoid."
+				];
+				i=dados_para_gerar_aula_chat.length;
+			}
+		}
+	}
+</script>

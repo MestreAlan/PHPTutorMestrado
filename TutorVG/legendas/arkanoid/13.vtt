@@ -1,0 +1,230 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.000
+No jogo Arkanoid temos uma condição para vitória e uma para a derrota
+
+2
+00:00:04.500 --> 00:00:09.000
+No jogo você perde quando a bola sai da tela de jogo, ou seja passe pela barra
+
+3
+00:00:09.500 --> 00:00:11.000
+E então o jogo recomeça
+
+4
+00:00:11.700 --> 00:00:15.000
+E você ganha quando consegue destruir todos os blocos sem perder a bola
+
+5
+00:00:16.000 --> 00:00:18.500
+E então o jogo recomeça novamente
+
+6
+00:00:19.900 --> 00:00:23.000
+Como esse é um exemplo e a apenas 4 blocos para serem destruídos
+
+7
+00:00:24.700 --> 00:00:30.000
+Nos seus projetos podem deixar o jogo mais difícil colocando mais blocos para serem destruídos
+
+8
+00:00:30.400 --> 00:00:33.000
+Então vamos criar o evento de quando o jogador perde
+
+9
+00:00:34.600 --> 00:00:37.700
+Que nesse caso será quando a bola sair da tela na parte de baixo
+
+10
+00:00:38.600 --> 00:00:43.600
+o evento que será criado verifica se a posição Y da bola é maior que a altura da tela.
+
+11
+00:00:44.500 --> 00:00:50.000
+Nós vamos utilizar a posição Y porque os valores dessa posição movem o objeto na vertical
+
+12
+00:00:51.500 --> 00:00:56.000
+Vamos ver se é maior que a altura da tela porque o valor de Y aumenta para baixo
+
+13
+00:00:56.850 --> 00:01:00.000
+E o X é usado para mudar a posição do objeto na horizontal
+
+14
+00:01:01.200 --> 00:01:04.000
+Agora, vamos até a Event Sheet ( página de eventos) para criar os eventos
+
+15
+00:01:04.700 --> 00:01:06.000
+Clique em Add Event (adicionar evento)
+
+16
+00:01:06.000 --> 00:01:12.000
+E vamos comparar se a posição Y da bola e maior que o tamanho da tela, significando que ela estará fora dela
+
+17
+00:01:16.700 --> 00:01:18.800
+E procure pelo evento Compare Y (comparar Y)
+
+18
+00:01:19.200 --> 00:01:21.600
+Dê dois cliques para selecioná-lo
+
+19
+00:01:29.00 --> 00:01:33.200
+em Comparison (comparação) vamos mudar  para comparar se é Maior
+
+20
+00:01:47.000 --> 00:01:50.300
+No Y co-ordinate (coordenada Y), coloque WindowHeight (altura da janela)
+
+21
+00:01:51.800 --> 00:01:57.000
+esse nome diz ao evento o tamanho da tela de jogo e assim compara com a posição Y da bola
+
+22
+00:02:01.000 --> 00:02:03.000
+e clique em Done (feito) para concluir o Evento
+
+23
+00:02:03.600 --> 00:02:06.000
+Agora precisamos colocar uma ação para esse evento
+
+24
+00:02:06.500 --> 00:02:07.500
+clique em Add Action (adicionar ação)
+
+25
+00:02:08.000 --> 00:02:13.200
+E vamos colocar duas ações do System (sistema), dê dois cliques para entrar no System
+
+26
+00:02:14.500 --> 00:02:20.000
+A primeira ação será resetar os pontos do jogador, como o valor é guardado na variável pontos
+
+27
+00:02:20.200 --> 00:02:28.000
+nós vamos adicionar a ação Reset Global Variables que muda os valores das variáveis para o mesmo do início
+
+28
+00:02:28.800 --> 00:02:30.600
+E clique em Done (feito) para confirmar
+
+29
+00:02:35.000 --> 00:02:36.000
+clique em Add action (adicionar ação)
+
+30
+00:02:36.600 --> 00:02:41.300
+procure pela ação Restart Layout (recarregar Layout), ela faz a tela atual do jogo reiniciar
+
+31
+00:02:43.600 --> 00:02:45.200
+Clique em Done (feito) para confirmar
+
+32
+00:02:46.000 --> 00:02:51.000
+Agora execute o jogo clicando em Run Layout e veja que nossa condição de derrota está funcionando
+
+33
+00:02:51.800 --> 00:02:53.800
+e que o jogo recomeça ao perder
+
+34
+00:02:59.600 --> 00:03:02.200
+Agora vamos criar a condição de vitória do jogador
+
+35
+00:03:03.000 --> 00:03:06.000
+Clique em Add Event para adicionar o próximo evento
+
+36
+00:03:06.700 --> 00:03:10.800
+Nós vamos usar uma ação do System (sistema), clique nele para abrir as condições
+
+37
+00:03:12.800 --> 00:03:17.000
+Nós vamos comparar dois valores para saber se não tem mais blocos no jogo
+
+38
+00:03:18.700 --> 00:03:21.800
+Então clique na condição Compare Two Values (comparar dois valores)
+
+39
+00:03:22.100 --> 00:03:27.000
+Nós precisamos saber quantos blocos tem na tela para saber se todos foram destruídos
+
+40
+00:03:27.700 --> 00:03:31.200
+então vamos colocar o nome de um dos blocos, por exemplo, bloco Amarelo
+
+41
+00:03:39.300 --> 00:03:45.500
+então vamos colocar .Count, isso vai dizer ao evento quantos blocos amarelos tem na tela
+
+42
+00:03:46.600 --> 00:03:51.000
+Com isso vamos comparar se a quantidade de blocos amarelos for igual a 0
+
+43
+00:03:53.800 --> 00:03:58.800
+deixando em Comparison (comparação), o sinal de igual e no Second Value (segundo valor) deixando 0
+
+44
+00:03:58.900 --> 00:04:01.000
+e clicando em Done para confirmar
+
+45
+00:04:04.500 --> 00:04:11.000
+Com isso nosso evento olha quantos blocos amarelos tem na tela se não houver nenhum ele dirá que tem 0
+
+46
+00:04:11.400 --> 00:04:15.500
+Porém nesse mesmo evento precisa ter as comparações dos outros blocos
+
+47
+00:04:16.000 --> 00:04:22.000
+Clique com o botão direito do mouse e clique em Copy (copiar) para copiar o evento
+
+48
+00:04:22.001 --> 00:04:26.000
+E clicando novamente, clicando em Paste (colar) para colocar o evento
+
+49
+00:04:27.500 --> 00:04:32.000
+Para editar o evento basta dar dois cliques nele, e basta trocar o nome de um bloco pelo o outro
+
+50
+00:04:33.000 --> 00:04:39.000
+nesse caso para o blocoAzul.Count e confirmando em Done (feito)
+
+51
+00:04:43.000 --> 00:04:45.700
+E fazendo o mesmo com os outros blocos do jogo
+
+52
+00:04:46.500 --> 00:04:51.000
+lembre que para copiar e colar também é possível usar o Ctrl + C e Ctrl + V
+
+53
+00:04:52.500 --> 00:04:58.000
+Assim nosso evento está olhando se não há nenhum bloco na tela já que o .Count diz quantos blocos tem
+
+54
+00:04:59.000 --> 00:05:06.000
+E para finalizar o jogo precisa recomeçar quando isso acontecer
+
+55
+00:05:06.500 --> 00:05:09.000
+então você pode copiar a ação Restart Layout
+
+56
+00:05:09.800 --> 00:05:11.800
+e Colar no evento dos bloco
+
+57
+00:05:24.000 --> 00:05:29.700
+Execute o jogo apertando F5 e veja que ao perder e ao ganhar o jogo recomeça
+

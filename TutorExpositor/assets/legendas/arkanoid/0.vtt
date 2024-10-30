@@ -1,0 +1,37 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.700
+Agora vamos conhecer o jogo Arkanoid
+
+2
+00:00:02.700 --> 00:00:05.366
+você vai aprender como acionar elementos do jogo
+
+3
+00:00:05.366 --> 00:00:07.432
+Vamos a demonstração
+
+4
+00:00:07.433 --> 00:00:10.499
+Durante o jogo Arkanoid, você vai controlar está barra
+
+5
+00:00:10.500 --> 00:00:13.800
+Ela tem movimentos livres para a direita e esquerda
+
+6
+00:00:13.800 --> 00:00:16.200
+A barra terá a função de rebater a bola
+
+7
+00:00:16.200 --> 00:00:20.200
+Com ela você elimina todos os blocos que aparecem na tela
+
+8
+00:00:20.200 --> 00:00:24.700
+Se a bola ultrapassar a parte debaixo da barra, você perde uma vida
+
+9
+00:00:24.700 --> 00:00:28.366
+Se um bloco for destruído você ganhará um ponto

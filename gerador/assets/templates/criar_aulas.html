@@ -1,0 +1,34 @@
+<form action="javascript:atualizar_contexto();">
+  <center>Nome do jogo da aula:</center><br>
+  <center><input type="text" name="nome_aula" id="nome_aula"></center><br>
+  <center>Link do vídeo explicativo sobre seu jogo:</center>
+  <center><input type="text" name="video" id="video_abertura_aula"></center><br>
+  <center>*Link da legenda:</center>
+  <center><input type="text" name="legenda" id="legenda_abertura_aula"></center><br><br>
+  <center><input type="submit" value="Enviar" id="enviar_dados_criar_aula"></center>
+</form>
+
+<script>
+	document.getElementById("enviar_dados_criar_aula").onclick = function(e) {
+		nome_aula = document.getElementById("nome_aula").value;
+		links_cadastro[0] = document.getElementById("video_abertura_aula").value;
+		links_cadastro[1] = document.getElementById("legenda_abertura_aula").value;
+		
+		dados_para_gerar_aula_expositor.push([nome_aula]);
+		dados_para_gerar_aula_expositor.push([1,"apresentação","Apresentação","Apresentação","Sua missão: Fazer um jogo estilo "+nome_aula+".",[2],[],0,""]);
+		dados_para_gerar_aula_expositor.push([2,"abertura","Abertura","Abertura","Quer ver como um jogo estilo "+nome_aula+" funciona?",[3,4],[],0,""]);
+		dados_para_gerar_aula_expositor.push([3,"sumario","Sumário","Sumário","",[],"",momento,"id_contexto_cadastro_expositor"]);
+		dados_para_gerar_aula_expositor.push([4,"aberturaVideo","AberturaVideo","AberturaVideo","",[3],[links_cadastro[0],links_cadastro[1]],0,""]);
+		id_cadastro_expositor = 5;
+		
+		dados_para_gerar_aula_chat.push([1,1,"Abertura",[" eu sou RoboEdu e esta aula é baseada em PBL, Ensino Baseado em Problemas (EBP)."," eu sou RoboEdu e esta aula tem base nos conceitos de PBL."],[2],[""],[],0,""]);
+		dados_para_gerar_aula_chat.push([2,1,"Explicação inicial",[" eu sou RoboEdu, seu tutor virtual."," eu sou RoboEdu e estou aqui para guiá-lo."],[3],[""],[],0,""]);
+		dados_para_gerar_aula_chat.push([3,3,"Problemática",["O problema para ser resolvido nesta aula é construir um jogo no estilo "+nome_aula+" utilizando a ferramenta Construct.","O problema que proponho que vc resolva é construir um jogo no estilo "+nome_aula+" utilizando a ferramenta Construct. Aproveite e pesquise algo sobre a ferramenta proposta.","O problema para ser resolvido nesta aula é construir um jogo no estilo "+nome_aula+" utilizando a ferramenta Construct. Aproveite e pesquise algo sobre a ferramenta proposta."],[4,5],["SIM"],[],0,""]);
+		dados_para_gerar_aula_chat.push([4,5,"Vídeo sobre o que é o jogo "+nome_aula,["Eu abri um vídeo ao lado sobre como é um jogo "+nome_aula+". Sinta-se à avontade para reiniciar o vídeo quantas vezes quiser.","Eu carreguei e abri um vídeo sobre o jogo "+nome_aula+" para vc se familiarizar com ele.","Abri um vídeo sobre o jogo "+nome_aula+"."],[5],[""],[links_cadastro[0],links_cadastro[1]],0,""]);
+		dados_para_gerar_aula_chat.push([5,6,"Ir para sumário principal",["Esta aula é dividida em conjuntos de atividades que permitirão que vc progrida na resolução do problema proposto. Sinta-se à avontade para escolher a que vc quiser.","Para esta aula dividi os conteúdos em conjuntos de atividades. Às vezes vou direcionar você para os conteúdos que acho necessários que sejam vistos.","Estou listando um conjunto de atividades para você adquirir conhecimentos básicos para resolver o problema proposto."],[],[""],[],momento,"id_contexto_cadastro_chat"]);
+		id_cadastro_chat = 6;
+		
+		momento += 1;
+		
+	}
+</script>

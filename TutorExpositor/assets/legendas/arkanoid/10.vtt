@@ -1,0 +1,74 @@
+﻿WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.500
+Você já deve ter visto que em vários jogos existem pontuação, quantidade de vida e quantidade de moedas
+
+2
+00:00:06.700 --> 00:00:10.600
+Mas para elas serem mostradas aos jogadores é preciso que esses valores
+
+3
+00:00:10.601 --> 00:00:12.600
+fiquem guardados em algum lugar
+
+4
+00:00:12.900 --> 00:00:18.500
+E para isso é usado Variáveis. Elas são responsáveis por guardar algum número ou texto
+
+5
+00:00:18.870 --> 00:00:23.300
+que nos jogos aparecem como quantidade de vida, pontos e outras formas
+
+6
+00:00:24.000 --> 00:00:27.000
+Vamos até a  Event Sheet (página de eventos) clicando nela
+
+7
+00:00:27.700 --> 00:00:32.500
+Para adicionar uma variável global é bem simples, clique com o botão direito do mouse
+
+8
+00:00:33.000 --> 00:00:35.000
+E clique em Add global variable (Adicionar variável global)
+
+9
+00:00:38.500 --> 00:00:42.200
+em Name (nome) você pode colocar um nome para a sua variável
+
+10
+00:00:43.000 --> 00:00:48.500
+Vamos supor que a nossa variável contará os pontos do jogador, então coloque Pontos no nome
+
+11
+00:00:49.500 --> 00:00:53.200
+escolhemos o tipo da variável, ela pode ser de dois tipos
+
+12
+00:00:55.006 --> 00:00:59.000
+Number para salvar números e Text para salvar textos
+
+13
+00:00:59.500 --> 00:01:04.000
+Vamos deixar em Number, pois geralmente os pontos são representados com números
+
+14
+00:01:04.100 --> 00:01:09.300
+Em Initial Value (Valor Inicial) você coloca o valor que a variável terá, vamos deixar 0
+
+15
+00:01:10.500 --> 00:01:15.000
+em Description (descrição), você pode colocar algum comentário sobre a utilização da variável
+
+16
+00:01:15.600 --> 00:01:19.000
+no caso da nossa será: Variável para contar pontos
+
+17
+00:01:19.800 --> 00:01:21.500
+clique em OK para confirmar
+
+18
+00:01:27.500 --> 00:01:30.000
+Assim, criamos uma variável global
+

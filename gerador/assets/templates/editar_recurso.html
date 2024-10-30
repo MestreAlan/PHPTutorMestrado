@@ -1,0 +1,63 @@
+<form action="javascript:atualizar_contexto();">
+  <center>Qual o novo nome do recurso que o aluno irá aprender:</center><br>
+  <center><input type="text" name="nome_sub-sumario" id="nome_recurso"></center><br>
+  <center>Faça um resumo do que o aluno irá aprender:</center><br>
+  <center><input type="text" name="nome_sub-sumario" id="contexto_recurso"></center><br>
+  <center>Link do vídeo:</center>
+  <center><input type"text" name="video" id="video"></center><br>
+  <center>*Link da legenda:</center>
+  <center><input type="text" name="legenda" id="legenda"></center><br><br>
+  <center><input type="submit" value="Enviar" id="enviar_dados"></center>
+</form>
+
+<script>
+	for(var i=0;i<dados_para_gerar_aula_expositor.length;i++){
+		if(dados_para_gerar_aula_expositor[i][0]==id_contexto_cadastro_expositor){
+			var input = document.getElementById("nome_recurso");
+			input.value = dados_para_gerar_aula_expositor[i][2] ;
+			var input = document.getElementById("contexto_recurso");
+			input.value = dados_para_gerar_aula_expositor[i][4] ;
+			var input = document.getElementById("video");
+			input.value = dados_para_gerar_aula_expositor[i+1][6][0] ;
+			var input = document.getElementById("legenda");
+			input.value = dados_para_gerar_aula_expositor[i+1][6][1] ;
+			i=dados_para_gerar_aula_expositor.length;
+		}
+	}
+	document.getElementById("enviar_dados").onclick = function(e) {
+		titulo_cadastro = document.getElementById("nome_recurso").value;
+		contexto_cadastro = document.getElementById("contexto_recurso").value;
+		links_cadastro[0] = document.getElementById("video").value;
+		links_cadastro[1] = document.getElementById("legenda").value;
+		
+		for(var i=0;i<dados_para_gerar_aula_expositor.length;i++){
+			if(dados_para_gerar_aula_expositor[i][0]==id_contexto_cadastro_expositor){
+				dados_para_gerar_aula_expositor[i][2] = titulo_cadastro;
+				dados_para_gerar_aula_expositor[i][3] = titulo_cadastro;
+				dados_para_gerar_aula_expositor[i][4] = contexto_cadastro;
+				dados_para_gerar_aula_expositor[i+1][2] = "Vídeo "+titulo_cadastro;
+				dados_para_gerar_aula_expositor[i+1][6][0] = links_cadastro[0];
+				dados_para_gerar_aula_expositor[i+1][6][1] = links_cadastro[1];
+				dados_para_gerar_aula_expositor[i+2][2] = "Missão - "+titulo_cadastro;
+				dados_para_gerar_aula_expositor[i+2][3] = titulo_cadastro;
+				dados_para_gerar_aula_expositor[i+3][2] = "Missão - "+titulo_cadastro;
+				dados_para_gerar_aula_expositor[i+3][3] = "Ajuda "+titulo_cadastro;
+				i=dados_para_gerar_aula_expositor.length;
+			}
+		}
+		
+		for(var i=0;i<dados_para_gerar_aula_chat.length;i++){
+			if(dados_para_gerar_aula_chat[i][0]==id_contexto_cadastro_chat){
+				dados_para_gerar_aula_chat[i][2] = titulo_cadastro;
+				dados_para_gerar_aula_chat[i][3] = [
+					"Um vídeo foi aberto sobre o tema "+titulo_cadastro+".",
+					"Eu carreguei um vídeo sobre o tema "+titulo_cadastro+".",
+					"Encontrei um vídeo sobre "+titulo_cadastro+" em meu banco de dados, estou carregando ele para você =D."
+				];
+				dados_para_gerar_aula_chat[i][6][0] = links_cadastro[0];
+				dados_para_gerar_aula_chat[i][6][1] = links_cadastro[1];
+				i=dados_para_gerar_aula_chat.length;
+			}
+		}
+	}
+</script>
